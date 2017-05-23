@@ -2,6 +2,7 @@
 /**
  * The template for displaying case studies
  *
+<<<<<<< HEAD
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
  * and that other 'pages' on your WordPress site will use a
@@ -10,12 +11,19 @@
  * @package WordPress
  * @subpackage Accelerate Marketing
  * @since Accelerate Marketing 1.0
+=======
+ *
+ * @package WordPress
+ * @subpackage Accelerate_Theme
+ * @since Accelerate Theme 1.1
+>>>>>>> origin/acf
  */
 
 get_header(); ?>
 
 	<div id="primary" class="site-content">
 		<div id="content" role="main">
+<<<<<<< HEAD
 			<?php while ( have_posts() ) : the_post(); 
 
 				$size = "full";
@@ -59,4 +67,13 @@ get_header(); ?>
 	</div><!-- #primary -->
 
 
+=======
+			<?php while ( have_posts() ) : the_post(); ?>
+			<article class="case-study">
+				<?php the_content(); ?>
+			</article>
+			<?php endwhile; // end of the loop. ?>
+		</div><!-- #content -->
+	</div><!-- #primary -->
+>>>>>>> origin/acf
 <?php get_footer(); ?>
