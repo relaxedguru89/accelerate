@@ -12,7 +12,6 @@
 
 @import url("../accelerate-theme/style.css");
 
-<<<<<<< HEAD
 /* Homepage Styles */
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
@@ -52,10 +51,12 @@
 	font-size: 16px;
 	font-family: 'Montserrat';
 	font-weight: bold;
-=======
+}
+
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
 }
+
 #masthead {
     background: none repeat scroll 0 0 #45ac9d;
 }
@@ -89,12 +90,10 @@
 }
 .blog-post .read-more-link {
 	font: 700 15px 'Montserrat';
->>>>>>> origin/acf
 	color: #45ac9d;
 	text-transform: uppercase;
 }
 
-<<<<<<< HEAD
 /* single-case_studies.php styles */
 
 article.case-study {
@@ -120,7 +119,7 @@ div.case-study-images img {
 ul {
 	list-style: none;
 }
-=======
+
 /* Case Studies */
 
 article.case-study {
@@ -142,6 +141,3 @@ div.case-study-images img {
 	margin-bottom:50px;
 	border:1px solid #dddddd;
 }
-
-
->>>>>>> origin/acf
