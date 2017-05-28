@@ -63,13 +63,5 @@ get_header(); ?>
 		</div>
 	</div>
 </section>
-			<?php while ( have_posts() ) : the_post(); ?>
-				<h2><?php the_title(); ?></h2>
-				<?php the_excerpt(); ?>
-				<a href="<?php the_permalink(); ?>" class="read-more-link">Read More <span>&rsaquo;</span></a>
-			<?php endwhile; // end of the loop. ?>
-			<?php wp_reset_query(); // resets the altered query back to the original ?>
-		</div>
-	</div>
-</section>
+
 <?php get_footer(); ?>

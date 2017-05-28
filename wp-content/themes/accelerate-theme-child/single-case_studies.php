@@ -40,7 +40,7 @@ get_header(); ?>
 						
 						<?php the_content(); ?>
 
-						<p><strong><a href="<?php echo $link; ?>">Visit Site Link</a></strong></p>
+						<p><strong><a href="<?php echo $link; ?>">Visit Site Link &#62;</a></strong></p>
 
 					</aside>
 
@@ -58,15 +58,6 @@ get_header(); ?>
 						<?php } ?>
 					</div>
 				</article>
-			<?php endwhile; // end of the loop. ?>
-		</div><!-- #content -->
-	</div><!-- #primary -->
-
-
-			<?php while ( have_posts() ) : the_post(); ?>
-			<article class="case-study">
-				<?php the_content(); ?>
-			</article>
 			<?php endwhile; // end of the loop. ?>
 		</div><!-- #content -->
 	</div><!-- #primary -->
