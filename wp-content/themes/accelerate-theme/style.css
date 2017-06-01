@@ -800,13 +800,13 @@ input::-webkit-input-placeholder {
 
 .navigation {
 	background: #fff;
-  border-top: dotted #bfbfbf;
-  border-width: 1px 0;
-  clear: both;
-  font: 0.8em/4.08 'OpenSans', Arial, sans-serif;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
+  	border-top: dotted #bfbfbf;
+  	border-width: 1px 0;
+  	clear: both;
+  	font: 0.8em/4.08 'OpenSans', Arial, sans-serif;
+  	overflow: hidden;
+  	position: relative;
+  	text-align: center;
 }
 .navigation a {
 	color: #150300;
