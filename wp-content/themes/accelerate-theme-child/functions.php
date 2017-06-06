@@ -25,6 +25,7 @@
  * @since Accelerate Marketing 1.0
  */
 
+//Create custom post type
 function create_custom_post_types() {
     register_post_type( 'case_studies',
         array(
@@ -48,3 +49,16 @@ if ( !is_admin() && $query->is_post_type_archive('case_studies') && $query->is_m
         }
 }
 add_action( 'pre_get_posts', 'reverse_archive_order' );
+
+// Narrow width only for contact page
+
+add_filter( 'body_class','accelerate_body_classes' );
+function accelerate_body_classes( $classes ) {
+
+ 
+  if ( is_page( 'contact-us' ) ) {
+    $classes[] = 'contact-page';
+  }
+    return $classes;
+
+}

@@ -199,3 +199,47 @@ div.site-content {
 input {
 	margin-top: 10px;
 }
+
+/*Contact Page*/
+
+/*.contact-us {
+	width: 67%;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+#nf-field-1-container, #nf-field-2-container, 
+.nf-field-container .textbox-container .label-above .email-container .one-half {
+	float: left;
+    width: 48%;
+    display: inline-block;
+    clear: none;
+}
+
+#nf-field-3-container {
+	width: 98.4%;
+}
+
+#nf-field-4 {
+	float: right;
+	font-size: 17px;
+	padding: 15px 70px;
+	margin-right: 11px;
+	background-color: #45AC9D;
+	color: white;
+	font-family: 'Montserrat', serif;
+	font-weight: bold;
+}
+
+
+.contact-us {
+  width: 67%;
+  margin-left: 17%;
+}
+*/
+
+.contact-page #content {
+
+    width: 75%;
+    margin: 0 auto;
+}
