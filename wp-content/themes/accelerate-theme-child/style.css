@@ -202,10 +202,10 @@ input {
 
 /*Contact Page*/
 
-/*.contact-us {
-	width: 67%;
-    margin: auto;
-    margin-bottom: 70px;
+.contact-page #content {
+
+    width: 75%;
+    margin: 0 auto;
 }
 
 #nf-field-1-container, #nf-field-2-container, 
@@ -229,17 +229,4 @@ input {
 	color: white;
 	font-family: 'Montserrat', serif;
 	font-weight: bold;
-}
-
-
-.contact-us {
-  width: 67%;
-  margin-left: 17%;
-}
-*/
-
-.contact-page #content {
-
-    width: 75%;
-    margin: 0 auto;
 }
