@@ -286,16 +286,6 @@ h3.widget-title {
 	margin-bottom: 10px;
 }
 
-/*.newsletter-button {
-    background: none repeat scroll 0 0 #333;
-    color: white;
-    font-family: "montserrat";
-    font-size: 20px;
-    font-weight: bold;
-    padding: 20px 50px;
-    text-align: center;
-}*/
-
 input[type=submit] {
     background-color: #45AC9D;
     border: none;
@@ -307,4 +297,24 @@ input[type=submit] {
     text-align: center;
     font-size: 16px;
     font-weight: bold;
+}
+
+/*Footer*/
+
+ul#menu-social-media-nav {
+	display: inline-flex;
+	margin-left: 120px;
+}
+
+li#menu-item-47382 {
+	margin: 0 5px;
+
+}
+
+li#menu-item-47383 {
+	margin: 0 5px;
+}
+
+li#menu-item-47384 {
+	margin: 0 5px;
 }
