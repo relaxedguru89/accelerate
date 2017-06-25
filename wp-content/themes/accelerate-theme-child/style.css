@@ -383,3 +383,21 @@ li#menu-item-47384 {
     margin-bottom: 100px;
     font-size: 16.5px;
 }
+
+.interested-contact {
+	display: flex;
+    justify-content: center;
+    margin: auto;
+    border-top: 1px dotted #e3e1e1;
+}
+
+.interested-contact h2 {
+	margin: 55px 0px 24px 0px;
+}
+
+.interested-contact .button {
+	margin: 40px 40px 0px 40px;
+	width: 120px;
+    height: 30px;
+    padding: 10px 60px 15px 60px;
+}
