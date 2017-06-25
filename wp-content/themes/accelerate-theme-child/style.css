@@ -15,6 +15,7 @@
 /* Homepage Styles */
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    margin-bottom: 50px;
 }
 
 #masthead {
@@ -37,10 +38,6 @@ nav.primary-navigation {
 
 section.recent-posts {
 	padding-left: 18px;
-}
-
-.home-page {
-	margin-bottom: 50px;
 }
 
 .recent-posts {
@@ -83,7 +80,7 @@ section.recent-posts {
 /*Recent Tweets*/
 
 .recent-tweets {
-	width: 45;
+	width: 45%;
 	float: left;
 	margin-bottom: 200px;
 	margin-top: 100px;
@@ -317,4 +314,72 @@ li#menu-item-47383 {
 
 li#menu-item-47384 {
 	margin: 0 5px;
+}
+
+/* Services */
+
+.services {
+	display: inline-flex;
+    margin: 50px;
+}
+
+.services-images {
+	float: left;
+}
+
+.services-sidebar {
+	float: right;
+    margin-left: 30px;
+}
+
+.services-sidebar h2{
+	margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+/*About Page*/
+
+.about-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    margin-bottom: 50px;
+    height: 440px;
+    margin: 0 0 80px;
+    padding: 100px 0;
+}
+
+.aboutpage-hero {
+	text-align:center;
+}
+
+.aboutpage-hero p {
+    color: white;
+    font-family: "open sans";
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    margin-top: 15%;
+    width: 60%;
+}
+
+.aboutpage-hero span {
+	color: #45ac9d;
+}
+
+.our-services {
+	text-align: center;
+}
+
+.our-services h4 {
+	text-transform: uppercase;
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: 16.51px;
+}
+
+.our-services p {
+	width: 53%;
+    margin: auto;
+    margin-bottom: 100px;
+    font-size: 16.5px;
 }

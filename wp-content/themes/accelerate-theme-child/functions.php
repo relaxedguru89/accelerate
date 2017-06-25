@@ -38,8 +38,24 @@ function create_custom_post_types() {
             'rewrite' => array( 'slug' => 'case-studies' ),
         )
     );
+    
+    //create services custome post type for about-page
+
+    register_post_type( 'services',
+        array(
+            'labels' => array(
+                'name' => __( 'Services' ),
+                'singular_name' => __( 'Service' )
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array( 'slug' => 'services' ),
+        )
+    );
+
 }
 add_action( 'init', 'create_custom_post_types' );
+
 
 // Reverse Case Studies Archive order
 function reverse_archive_order( $query ){
@@ -50,8 +66,8 @@ if ( !is_admin() && $query->is_post_type_archive('case_studies') && $query->is_m
 }
 add_action( 'pre_get_posts', 'reverse_archive_order' );
 
-// Narrow width only for contact page
 
+// Narrow width only for contact page
 add_filter( 'body_class','accelerate_body_classes' );
 function accelerate_body_classes( $classes ) {
 
@@ -63,8 +79,8 @@ function accelerate_body_classes( $classes ) {
 
 }
 
-//Dynamic sidebar
 
+//Dynamic sidebar
 function accelerate_theme_child_widget_init() {
     
     register_sidebar( array(
