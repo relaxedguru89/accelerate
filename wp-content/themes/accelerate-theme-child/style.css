@@ -389,6 +389,7 @@ li#menu-item-47384 {
     justify-content: center;
     margin: auto;
     border-top: 1px dotted #e3e1e1;
+    clear: both;
 }
 
 .interested-contact h2 {
@@ -401,3 +402,38 @@ li#menu-item-47384 {
     height: 30px;
     padding: 10px 60px 15px 60px;
 }
+
+.individual-services {
+	display: inline-block;
+	float: left;
+	width: 95%;
+	margin: auto;
+}
+
+.individual-services figure {
+	width: 30%;
+	float: left;
+}
+
+.service-description {
+	width: 70%;
+	margin-bottom: 80px;
+	float: right;
+}
+
+.service-description h3 {
+	margin-top: 0px;
+}
+
+.service-description h3 {
+	width: 90%;
+}
+
+.service-description p {
+	width: 94%;
+}
+
+.service .individual-services:nth-child(even) figure {
+	float: right;
+}
+
