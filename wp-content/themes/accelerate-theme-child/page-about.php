@@ -34,9 +34,12 @@ get_header(); ?>
 				<?php while (have_posts()) : the_post(); 
 					$image_1 = get_field("image_1");
 					$size = "medium";
+
+					//to alternate alignment of services icons using odd = left & even = right
+					$align = ($wp_query->current_post % 2 == 0)? 'alignright' : 'alignleft';
 				?>
 				<li class="individual-services">
-					<figure>
+					<figure class="service-image <?php echo $align; ?>">
 						<?php echo wp_get_attachment_image( $image_1, $size ); ?>
 					</figure>
 					<div class="service-description">

@@ -316,6 +316,10 @@ li#menu-item-47384 {
 	margin: 0 5px;
 }
 
+.social-media-navigation {
+	margin-right: 44px;
+}
+
 /* Services */
 
 .services {
@@ -340,9 +344,9 @@ li#menu-item-47384 {
 /*About Page*/
 
 .about-page {
-    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    background: url("img/taxi-photo.jpg") no-repeat scroll 0% 75% / cover rgba(0, 0, 0, 0);
     margin-bottom: 50px;
-    height: 440px;
+    height: 220px;
     margin: 0 0 80px;
     padding: 100px 0;
 }
@@ -358,7 +362,7 @@ li#menu-item-47384 {
     font-weight: bold;
     text-align: center;
     margin: auto;
-    margin-top: 15%;
+    margin-top: 5%;
     width: 60%;
 }
 
@@ -412,7 +416,7 @@ li#menu-item-47384 {
 
 .individual-services figure {
 	width: 30%;
-	float: left;
+
 }
 
 .service-description {
@@ -433,7 +437,20 @@ li#menu-item-47384 {
 	width: 94%;
 }
 
+.alignright {
+	float: right;
+}
+
+.alignleft {
+	float: left;
+}
+
+
+/* Alternative method to alternate align the icons instead of using alignright/left with the if/else php code in about-page
+Pure css
+
 .service .individual-services:nth-child(even) figure {
 	float: right;
 }
 
+*/
